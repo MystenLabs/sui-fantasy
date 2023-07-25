@@ -16,8 +16,7 @@ if [ $# -ne 0 ]; then
     NETWORK="https://fullnode.devnet.sui.io:443"
   fi
   if [ $1 = "testnet" ]; then
-    NETWORK="http://dfw-exp-val-00.experiments.sui.io:9000"
-    # NETWORK="https://fullnode.testnet.sui.io:443"
+    NETWORK="https://fullnode.testnet.sui.io:443"
   fi
   if [ $1 = "mainnet" ]; then
     NETWORK="https://fullnode.mainnet.sui.io:443"
