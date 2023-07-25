@@ -1,0 +1,22 @@
+{
+  "name": "sui-fantasy",
+  "version": "0.0.1",
+  "description": "sui-fantasy",
+  "scripts": {
+    "build": "npx tsc",
+    "init": "node dist/init.js",
+    "start": "node dist/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.3.2",
+    "env-cmd": "^10.1.0",
+    "gts": "^3.1.1",
+    "prettier": "2.8.8",
+    "typescript": "^5.1.6"
+  },
+    "dependencies": {
+    "@mysten/sui.js": "^0.36.0",
+    "dotenv": "^16.0.3"
+  }
+}
