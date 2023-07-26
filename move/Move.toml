@@ -1,0 +1,11 @@
+[package]
+name = "sui_fantasy"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "cc4ad6d8a" }
+oracle = { git = "https://github.com/georgedigkas/sui-oracle", rev = "4604078f8bcdca194ea8c9c3d6865dc1804367f0" }
+
+[addresses]
+sui_fantasy = "0x0"
+oracle = "0x8ddc5e06d22cc9c84a50c1a2348360eb2ace71127a84ed7b0233165c8b5a11d5"
